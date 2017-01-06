@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{E8B90A03-C428-462B-B66C-F23B0230E35B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DrawMapPathXamarin/Controller/MainActivity.cs">
+    <Files>
+      <File FileName="DrawMapPathXamarin/Controller/MainActivity.cs" Line="48" Column="15" />
+      <File FileName="DrawMapPathXamarin/Model/OnMapReadyClass.cs" Line="6" Column="15" />
+      <File FileName="DrawMapPathXamarin/Model/CommonHelperClass.cs" Line="26" Column="17" />
+      <File FileName="DrawMapPathXamarin/Model/Constants.cs" Line="11" Column="26" />
+      <File FileName="DrawMapPathXamarin/Model/GoogleDirectionClass.cs" Line="18" Column="19" />
+      <File FileName="DrawMapPathXamarin/Model/GoogleGeoCodeClass.cs" Line="12" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DrawMapPathXamarin PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

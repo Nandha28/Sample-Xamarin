@@ -1,0 +1,1 @@
+/Users/hmspl/Downloads/DrawMapPathXamarin-master/DrawMapPathXamarin/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs

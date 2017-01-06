@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="MapIntegration.MyPage" 
+			 xmlns:local="clr-namespace:MapIntegration;assembly=MapIntegration">
+<ContentPage.Padding>
+			<OnPlatform x:TypeArguments="Thickness"
+				iOS="0, 20, 0, 0"/>
+			</ContentPage.Padding>
+	<ContentPage.Content>
+		<StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Entry Text="{Binding SourcePlace}" Placeholder="Source" HorizontalOptions="FillAndExpand" />
+				<Entry Text="{Binding DestinationPlace}" Placeholder="Destination" HorizontalOptions="FillAndExpand" />
+			</StackLayout>
+			<StackLayout Orientation="Horizontal">
+				<Entry Text="{Binding Mode}" Placeholder="Eg:driving,walking,bicycling,transit" HorizontalOptions="Fill" />
+				<Button Text="Get Route" Command="{Binding GetRouteCommand}" HorizontalOptions="End" />
+			</StackLayout>
+			<local:CustomMap VerticalOptions="FillAndExpand" PolylineCoordinates="{Binding ListCoordinate, Mode=TwoWay}" PolylineColor="Blue" />
+			<!--			<local:SampleClass HeadText="Anbalagan" TextColor="Red"/>-->
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

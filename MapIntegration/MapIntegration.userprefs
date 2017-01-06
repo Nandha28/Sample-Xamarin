@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{1C7770EA-10EF-40C3-AEE3-43D097259C62}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MapIntegration/ViewModal/MapPageViewModal.cs">
+    <Files>
+      <File FileName="Droid/Renderers/CustomMapRenderer.cs" Line="86" Column="77" />
+      <File FileName="iOS/Renderers/CustomMapRenderer.cs" Line="48" Column="62" />
+      <File FileName="MapIntegration/ViewModal/MapPageViewModal.cs" Line="172" Column="63" />
+      <File FileName="MapIntegration/View/MyPage.xaml.cs" Line="14" Column="31" />
+      <File FileName="MapIntegration/API Handler/RequsetHandler.cs" Line="86" Column="23" />
+      <File FileName="MapIntegration/View/MyPage.xaml" Line="1" Column="1" />
+      <File FileName="MapIntegration/CustomPage/CustomMap.cs" Line="30" Column="130" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MapIntegration.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.98DA561D-B038-4BF9-B7CC-3674E9E58FA4" />
+  <MonoDevelop.Ide.ItemProperties.MapIntegration.Droid PreferredExecutionTarget="Android.E8AZCY04S969" />
+</Properties>
